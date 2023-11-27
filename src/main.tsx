@@ -11,6 +11,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
+import Checkout from './pages/Checkout.tsx';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: 'details',
     element: <Details/>
+  },
+  {
+    path: 'checkout',
+    element: <Checkout/>
   },
 ]);
 

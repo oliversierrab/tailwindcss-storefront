@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export default function Hero() {
   return (
     <div className="bg-white">
@@ -19,9 +21,9 @@ export default function Hero() {
               >
                 Get started
               </a> */}
-              <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+              <Link to={'/category'} className="text-sm font-semibold leading-6 text-gray-900">
                 See collection <span aria-hidden="true">→</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
